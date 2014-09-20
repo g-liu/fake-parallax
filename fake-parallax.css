@@ -1,0 +1,21 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-image: url(http://lorempixel.com/1920/1080/); /* set this to your background parallax image */
+	background-size: cover;
+	background-attachment: fixed; /* the quintessential parallax faker */
+	background-repeat: no-repeat;
+}
+
+body > * {
+	background-color: #fdfdfd;
+}
+
+header {
+	margin-bottom: 500px; /* The size of the parallax "window" that you want */
+}
